@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/css/style.css">
+    <title>WikiKris</title>
+</head>
+<body>
+
+<div>
+    <h1>Как коммитить:</h1>
+
+    <h2>git init</h2>
+    <p>Инициация в репозиторий</p>
+
+    <h2>git config</h2>
+    <h3>Указание своего имени, глобально или локально</h3>
+    <p>
+        git config --local/global user.name "Orlova" <br>
+        git config --local/global user.email shiarys@yandex.ru <br>
+        глобальные не распространяются на локальные. Глобальные - на все проекты на ПК.
+    </p>
+
+    <h2>git status</h2>
+    <p>статус</p>
+
+    <h2>git add</h2>
+    <h3>добавление файлов в индекс(индексация в git).</h3>
+    <p>git add -A "A" означает, что добавляются все файлы <br>
+        git add *.расширениеФайлов - все файлы с нужным расширением <br>
+        git add index.html - название конкретного файла
+    </p>
+
+    <h2>git commit</h2>
+    <h3>создание точки сохранения</h3>
+    <p>git commit -a -m"Название коммита" <span>// -a=all файлы, -m - сообщение - название коммита </span>
+
+    </p>
+    <h2>git log</h2>
+    <h2>git remote add origin ссылкаНаРепозиторий</h2>
+    <h3>добавление ссылки на существующий репозиторий</h3>
+
+    <h2>git push -u origin main/master</h2>
+    <h2></h2>
+</div>
+    <script src="../src/js/Practic_lesson_1.js"></script>
+</body>
+</html>
